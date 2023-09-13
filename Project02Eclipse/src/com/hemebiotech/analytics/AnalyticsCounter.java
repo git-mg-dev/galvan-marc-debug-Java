@@ -29,8 +29,8 @@ public class AnalyticsCounter {
 	 * Gets the symptoms from the data file and store them in a list
 	 * @return List of symptoms as strings with duplications
 	 */
-	public List<String> GetSymptoms() {
-		return myReader.GetSymptoms();
+	public List<String> getSymptoms() {
+		return myReader.getSymptoms();
 	}
 
 	/**

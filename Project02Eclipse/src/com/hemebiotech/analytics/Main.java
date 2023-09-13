@@ -16,7 +16,7 @@ public class Main {
 		ISymptomWriter writer = new WriteSymptomDataToFile("result.out");
 		AnalyticsCounter analyticsCounter = new AnalyticsCounter(reader, writer);
 
-		List<String> symptoms = analyticsCounter.GetSymptoms();
+		List<String> symptoms = analyticsCounter.getSymptoms();
 		Map<String, Integer> counter = analyticsCounter.countSymptoms(symptoms);
 		Map<String, Integer> sortedResult = analyticsCounter.sortSymptoms(counter);
 

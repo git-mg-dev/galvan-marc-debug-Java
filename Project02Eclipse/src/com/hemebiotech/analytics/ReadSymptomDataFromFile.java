@@ -32,7 +32,7 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
 	 *         duplications
 	 */
 	@Override
-	public List<String> GetSymptoms() {
+	public List<String> getSymptoms() {
 		List<String> result = new ArrayList<String>();
 
 		if (filepath != null) {
